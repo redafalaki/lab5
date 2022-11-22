@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html lang ="en">
+  <head>
+    <meta charset="utf-8">
+    <title> LAB_Work5 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="excel.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+      <section>
+        <header> 
+            <nav> 
+                <ul id="button"> 
+                    <li id="index"><a href="index.html">Home</a></li>
+                    <li id="excel"><a href="excel.html">Excel</a></li> 
+                </ul> 
+            </nav> 
+        </header>
+        <form>
+            <div>
+                <label for="numbers">Enter your numbers :</label>
+                <input type="text" id="numbers" name="user_numbers">
+            </div>
+            <div>
+                <input type="radio" id="maximum" name="drone" value="maximum"
+                       checked>
+                <label for="maximum">maximum</label>
+              </div>
+          
+              <div>
+                <input type="radio" id="minimum" name="drone" value="minimum">
+                <label for="minimum">minimum</label>
+              </div>
+          
+              <div>
+                <input type="radio" id="average" name="drone" value="average">
+                <label for="average">average</label>
+              </div>
+              <div>
+                <input type="radio" id="somme" name="drone" value="somme">
+                <label for="somme">somme</label>
+              </div>
+              <br>
+              <div>
+                <label for="result">result:</label>
+                <input type="text" id="result" name="drone">
+            </div>
+           <br><br>
+          </form>
+        
+          <button onclick="calculate()">Calculate</button>
+           
+      </section>
+
+ 
+ 
+<footer> 
+    <p> 
+    ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work - Reda Falaki 
+  </p> 
+
+</footer> 
+
+<!-- [[ code: the script link to your external JavaScript file ]] --> 
+</body> 
+</html> 
