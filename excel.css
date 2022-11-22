@@ -1,0 +1,36 @@
+*{
+    
+    background-color: url("image1.jpg");
+}
+html,body{
+    min-height: 100vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("image1.jpg");
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+  }
+section{
+    flex:auto
+    
+}
+
+#button li,a{
+    display:inline ;
+    border-radius: 4px;
+    background-color: url("image1.jpg");
+    border: none;
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 100px;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration-line: none;
+
+}
+
